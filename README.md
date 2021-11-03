@@ -1,4 +1,4 @@
-#  <img src="https://avatars.githubusercontent.com/u/1507452?s=200&v=4" width="100" height="35"/> 
+#  <img src="https://avatars.githubusercontent.com/u/1507452?s=200&v=4" width="100" height="100"/> 
 # CI_CD_Ansible 
 
 
