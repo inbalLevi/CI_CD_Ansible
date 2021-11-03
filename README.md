@@ -9,12 +9,12 @@ This repo you will find:
 
 
 # steps:
-* Install ansible on ubuntu 18.04 with the commands in this site:Use this: [Installation Guide](https://www.linuxtechi.com/how-to-install-ansible-on-ubuntu/) 
+* Install ansible on ubuntu 18.04 with the commands in this site: [Installation Guide](https://www.linuxtechi.com/how-to-install-ansible-on-ubuntu/) 
 * Create ssh key and copy to remote machine by this command: ssh-keygen
 * Configure remote machine to enable ansible to run it.
 * Edit the hosts file: /etc/hosts and /etc/ansible/hosts - In the hosts file you can define your working groups, such as "staging" or "prodn" and assign to each group their unique properties. Here we will just store there the IPs of the relevant machines. 
 create your groups like this:
-![image](https://user-images.githubusercontent.com/71599740/140192115-916a95f2-74a3-41b8-88b1-ade2052db226.png)
+![image](https://user-images.githubusercontent.com/71599740/140193516-accd29a2-bba2-41ed-9851-5507b68c81fc.png)
 ![image](https://user-images.githubusercontent.com/71599740/140191877-8247a808-7c1c-463b-a5b5-92f85a3fddef.png)
 * Run a test to verify a connection exists with managed hosts
 * Copy the key to the agents by using ssh-copy-id <path-to-file> user@hostname command.
