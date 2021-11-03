@@ -17,12 +17,6 @@
      shell: npm init -y
      args:
        chdir: '{{ deploy_directory }}/'
-
-
-   - name: Install node dependencies
-     shell: npm install @hapi/hapi@19 @hapi/bell@12 @hapi/boom@9 @hapi/cookie@11 @hapi/inert@6 @hapi/joi@17 @hapi/vision@6 dotenv@8 ejs@3 postgres@1 -y
-     args:
-       chdir: '{{ deploy_directory }}/'
        
    - name: Npm install
      shell: npm install --save-dev nodemon@2 -y
