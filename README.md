@@ -1,4 +1,4 @@
-#  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.elastic.co%2Fblog%2Fdeploying-elasticsearch-with-ansible&psig=AOvVaw14arkp2wfBiq8X30UZ1a0K&ust=1636058578564000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCOCTgqeH_fMCFQAAAAAdAAAAABAJ" width="100" height="35"/> 
+#  <img src="https://avatars.githubusercontent.com/u/1507452?s=200&v=4" width="100" height="35"/> 
 # CI_CD_Ansible 
 
 
