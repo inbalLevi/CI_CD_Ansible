@@ -18,8 +18,8 @@
      args:
        chdir: '{{ deploy_directory }}/'
        
-   - name: Npm install
-     shell: npm install --save-dev nodemon@2 -y
+   - name: Install node dependencies
+     shell: npm install
      args:
        chdir: '{{ deploy_directory }}/'    
 
