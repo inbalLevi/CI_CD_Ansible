@@ -1,4 +1,4 @@
-# CI_CD_Ansible  <img src="https://avatars.githubusercontent.com/u/1507452?s=200&v=4" width="60" height="60"/>  
+# CI_CD_Ansible  <img src="https://avatars.githubusercontent.com/u/1507452?s=200&v=4" width="40" height="40"/>  
 
 
 This playbook will create and provision all web servers within the network with the weight tracker app: https://developer.okta.com/blog/2020/06/01/node-postgres-weight-tracker.
