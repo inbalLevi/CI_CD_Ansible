@@ -20,20 +20,20 @@ create your groups like this:
 * Copy the key to the agents by using ssh-copy-id <path-to-file> user@hostname command.
 * Verify connection
 * Make a new directory called enviroment
-* in enviroment directory make 2 directory called - staging and prod
+* In enviroment directory make 2 directory called - staging and prod
 * In staging and prod make a new directory called "group_vars" 
 * In each "group_vars" directory create a YML file there with the same name as your group name( enviroment name) that store the .env variables. for example - PGHOST,OKTA, POSTGRESQL, and IP ADDRESS HOST.
 * In enviroment directory create a new playbook - mkdir playbook -> nano playbook.yml
 * Run playbook : ansible-Playbook *Your Play book YAML file* --extra-vars "group=*your group name* var_file_path=*enviroment/<my group name>/group_vars/variable file name*"
   
-for example:
+For example:
 ansible-playbook playbook.yml --extra-vars "group=staging var_file_path=/home/Inbalevi0707/environments/staging/group_vars/staging.yml"
 
   
-* you can add few flags for debugging: </br>
-this command will show debugging output ansible-playbook -i hosts <location of the hosts> <location of playbook> -u <username> -vvv
-this command will ask you to confirm each step ansible-playbook -i hosts <location of the hosts> <location of playbook> -u <username> --step
-this command will start the playbook on the requested task name ansible-playbook -i hosts <location of the hosts> <location of playbook> -u <username> --start-at-task:"<name of the task>"
+* You can add few flags for debugging: </br>
+This command will show debugging output ansible-playbook -i hosts <location of the hosts> <location of playbook> -u <username> -vvv
+This command will ask you to confirm each step ansible-playbook -i hosts <location of the hosts> <location of playbook> -u <username> --step
+This command will start the playbook on the requested task name ansible-playbook -i hosts <location of the hosts> <location of playbook> -u <username> --start-at-task:"<name of the task>"
 
 
 
