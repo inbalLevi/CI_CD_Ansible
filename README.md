@@ -1,5 +1,4 @@
-#  <img src="https://avatars.githubusercontent.com/u/1507452?s=200&v=4" width="100" height="100"/> 
-# CI_CD_Ansible 
+#  <img src="https://avatars.githubusercontent.com/u/1507452?s=200&v=4" width="60" height="60"/>  CI_CD_Ansible 
 
 
 This playbook will create and provision all web servers within the network with the weight tracker app
